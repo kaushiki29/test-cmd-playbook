@@ -1,0 +1,6 @@
+---
+- hosts: ah_host
+  become: true
+  tasks:
+    - name: "Execute ls -lrt command"
+      shell: "ls -lrt"
